@@ -1,0 +1,352 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.body{
+    min-height: 100vh;
+    background-image: url(solid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav{
+    background-color: white;
+    box-shadow: 3px 3px rgb(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    margin: 0%;
+    
+    
+}
+nav ul{
+   
+    list-style: none;
+    display:flex ;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+nav li{
+
+
+}
+nav a{
+    height:     50%;
+    padding: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+    
+}
+nav a:hover{
+    color: green;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 999;
+    background-color: rgb(213, 226, 243);
+    backdrop-filter: blur(40px);
+    box-shadow: -10px rgba(0,0,0,0.2);
+    display:none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    }
+    .menu-button{
+        display: none;
+    }
+.sidebar li{
+width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+@media(max-width: 800px){
+    .homb{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@keyframes set{
+    0%{background-color: brown;background-color: chartreuse; border-radius: 70px;left: 0px; top: 0px;}
+    25%{color: aquamarine; background-color: beige; border-radius: 20px;left: 200px; top: 0px;}
+    50%{background-color: blue; color: blueviolet; border-radius: 70px;top: 200px; left: 0px;}
+    75%{background-color: bisque;color: cadetblue; border-radius: 20px;left: 0px; top: 0px;}
+    100%{background-color: chocolate; color: crimson; border-radius: 70px;top: 0px; left: 0px;}
+}
+#H3{
+    color: white;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-name: set; 
+    text-align: center;
+
+}
+
+
+
+
+
+
+body{
+    text-align: center;
+}
+
+ header .h1{
+    font-weight:bold;
+}
+.h2{
+    margin-right: 400px;
+}
+
+footer{
+    background-color:rgb(52, 52, 52);
+    height: 100PX;
+    text-align: center;
+     line-height: 45px;
+     width: 100%;
+     padding: 30px;
+     border-radius: none;
+     color:white;
+}
+footer a{
+    text-decoration: none;
+    color:  antiquewhite;
+}
+button{
+    border: none;
+    border-radius:30PX ;
+    height: 40PX;
+    width: 150PX;
+    background-color: gray;
+    color:  blue;
+padding: 10px;
+margin: 30px;
+}
+.a1 img,#c0 img {
+height: 500px;
+width: 400px;
+}
+.a2{
+    line-height: 60px;
+}
+#er{
+    line-height: 60px;
+}
+.i1{
+    overflow: hidden;
+} 
+.i11 img {
+    width: 300px;
+    height: 450px;
+}
+#slide{
+    background-color:grey;
+    color: white;
+    margin: 30px;
+}
+#pa{
+    color: white;
+}
+.s0,.as0{
+    background-image: url(solid.jpg);
+    height: 350px;
+ color: green;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position:center ;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media(min-width: 501px){
+   . strong{
+        font-size:larger;
+    }
+    
+    .s1a{
+        display: flex;
+        padding: 40px;
+        margin-left: 250px;
+        
+    }
+     .s1a1 img {
+        height: 400px;
+        width: 300px;
+        margin-right: 60px;
+        padding: 30px;
+        border: groove;
+        border-radius: 20px;
+    }
+     .s1a2{
+        height:400px;
+        width: 300px;
+        text-align: left;
+        padding: 30px;
+        border: groove;
+        border-radius: 20px;
+    }
+     .s1b{
+        display: flex;
+        padding: 20px;
+        margin-left: 270px;
+        
+    }
+     .s1b1,.s1b2 {
+        height:400px;
+        width: 300px;
+        text-align: left;
+        padding: 30px;
+        border: groove;
+        border-radius: 20px;
+    }
+     .s1b1{
+    margin-right: 60px;
+    }
+     .s2{
+        display: flex;
+        margin-left: 100px;
+        border-radius: 30px 0px 30px 0px;
+    }
+     .s2 img{
+        height: 350px;
+        width: 250px;
+      padding: 20px;
+      margin-left: 40px;
+      overflow: hidden;
+      
+    }
+    .img1 {
+        height: 600px;
+        width: 414px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 35%;
+    }
+        .img1 img{
+    
+            height: 600px;
+            width: 414px;
+        
+    }
+    .db{
+        display: none;
+    }
+
+    }
+    
+@media (max-width:500px) {
+    .db{
+        padding: 10px;
+        margin: 10px;
+        font-family:Arial;
+        width: 100%;
+        border: groove;
+        border-radius: 20px;
+    }
+    strong{
+        font-size:larger;
+    }
+    .as1a{
+        display: block;
+        padding: 40px;
+
+    }
+    .as1a1 img {
+        height: 400px;
+        width: 300px;
+        padding: 30px;
+        border: groove;
+        border-radius: 20px;
+    }
+    .as1a2{
+        height:400px;
+        width: 300px;
+        text-align: center;
+        padding: 30px;
+        border: groove;
+        border-radius: 20px;
+    }
+    .as1b{
+        display: block;
+        padding: 30px;
+    
+    }
+    .as1b1{
+        height:400px;
+        width: 300px;
+        text-align: center;
+        padding: 30px;
+        border: groove;
+        border-radius: 20px;
+        
+    }
+    .as1b2 {
+        height:400px;
+        width: 300px;
+        text-align: center;
+        padding: 30px;
+        border: groove;
+        border-radius: 20px;
+    
+    
+    }
+    .as2{
+        display: block;
+    }
+    .as2 img{
+        height: 350px;
+        width: 250px;
+      padding: 20px;
+    }
+    .da{
+        display: none;
+    }
+    .img1 {
+        height: 600px;
+        width: 414px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 5%; 
+    }
+    .img1 img{
+    
+        height: 600px;
+        width: 414px;
+    }
+}
+    @keyframes slidis {
+        from{
+            background-image: url(clarson\ spark.jpg);
+        }
+        to{
+            background-image: url(Clarkson.jpg);
+        }
+    }
+    .img1{
+        animation-name: slidis;
+        animation-duration: 30s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+
+
